@@ -1,0 +1,25 @@
+.ScreenOne_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  min-height: 100vh;
+}
+.image_content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.screen1_image {
+  width: 500px;
+  height: 500px;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 426px) {
+  .screen1_image {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+  }
+}

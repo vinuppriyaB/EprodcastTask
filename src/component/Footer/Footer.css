@@ -1,0 +1,8 @@
+.Footer_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(2, 36, 65);
+  color: rgba(234, 180, 30) !important;
+  padding: 10px 0px;
+}

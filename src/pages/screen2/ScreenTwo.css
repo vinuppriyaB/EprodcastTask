@@ -1,0 +1,18 @@
+.ScreenTwo_Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+.table_content {
+  flex: 1;
+  padding: 100px 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.table_head {
+  font-weight: bold !important;
+  font-size: large !important;
+}

@@ -1,0 +1,28 @@
+.Header_container {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(2, 36, 65);
+  color: rgba(234, 180, 30) !important;
+  padding: 10px 0px;
+}
+
+.selected {
+  color: rgba(234, 180, 30) !important;
+}
+
+.popover_list {
+  font-size: 20px !important;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 426px) {
+  .Header_container {
+    padding: 10px 10px;
+    gap: 25vw;
+    align-items: center;
+  }
+}
